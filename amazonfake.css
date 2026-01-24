@@ -475,3 +475,90 @@ f1 p{
 
 
 
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    
+    /* Navbar */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 5px;
+    }
+    
+    .search {
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .search-search {
+        width: 100%;
+    }
+    
+    /* Hide some navbar items on mobile */
+    .flag, .returns {
+        display: none;
+    }
+    
+    /* Nav-2 */
+    .nav-2 {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    /* Hero section */
+    .hero-section {
+        height: 200px;
+    }
+    
+    .amazonuk {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    /* Shop boxes */
+    .box {
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    /* Footer */
+    .footer2 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .footer-3 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .fimg {
+        margin-left: 0;
+    }
+    
+    .f3other {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    
+    .footer-4 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .ff1, .fdiv2, .fdiv3, .fdiv4, .fdiv5, .fdiv6, .fdiv7 {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
